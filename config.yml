@@ -53,7 +53,7 @@ params:
     comments: false
     math: true
     profileMode:
-          enabled: false
+          enabled: true
           title: Zihan Ni
           subtitle: "I'm a master's student at Kyoto University."
           imageUrl: "avatar.jpg"
