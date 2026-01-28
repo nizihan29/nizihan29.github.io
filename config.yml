@@ -55,7 +55,23 @@ params:
     profileMode:
           enabled: true
           title: Zihan Ni
-          subtitle: "I'm a master's student at Kyoto University."
+          subtitle: |
+              Ciallo～(∠・ω< )⌒★ <br>
+              Welcome! I am <b>Zihan Ni</b>, currently an intern at <i>IBM TRL</i> while pursuing my Master's degree at <i>Kyoto University</i>. 
+              Beyond academia, I am an avid fan of anime and enjoy long walks. Recently, I’ve been deeply immersed in <i>Strinova</i>. <br><br>
+
+              <b>Research Interests:</b>
+              <ul style='list-style:none;padding:0;margin:0;'>
+              <li>• Empathic AI</li>
+              <li>• Psychoinformatics</li>
+              </ul>
+              <br>
+
+              <b>Education:</b>
+              <ul style='list-style:none;padding:0;margin:0;'>
+              <li>• Apr. 2026 &ndash; Present: M.S. in Informatics, Kyoto University</li>
+              <li>• Sep. 2021 &ndash; Jun. 2025: B.E. in Artificial Intelligence, Central South University</li>
+              </ul>
           imageUrl: "avatar.jpg"
           imageWidth: 160
           imageHeight: 160
