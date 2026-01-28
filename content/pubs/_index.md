@@ -1,6 +1,7 @@
 ---
 title: "Publications"
 layout: "single"
+hideMeta: true
 ---
 
 <style>
