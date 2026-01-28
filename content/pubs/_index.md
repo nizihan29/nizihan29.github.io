@@ -5,11 +5,21 @@ hideMeta: true
 ---
 
 <style>
-/* 针对 Publications 页面大标题的间距 */
+/* 1. 强制缩放：保持和主页一样的比例 */
+@media screen and (min-width: 768px) {
+    html {
+        zoom: 115%; /* 这里填你主页 subtitle 里写的那个数字，比如 115% 或 125% */
+    }
+}
+    
+/* 2. 标题样式：加线 + 间距 */
 h1.post-title {
     margin-bottom: 50px !important; /* 这个数字越大，标题离论文就越远 */
+    border-bottom: 1px solid #eee; /* 标题下方的横线 */
+    padding-bottom: 15px;
 }
-/* 给链接加边框的样式 */
+    
+/* 3. 链接边框样式 */
 .pub-link {
     display: inline-block;
     padding: 2px 8px;
@@ -24,13 +34,24 @@ h1.post-title {
     background-color: #007bff;
     color: white !important;
 }
+    
+/* 4. 论文项设置 */
 .paper-item {
     margin-bottom: 25px; /* 每篇论文之间的间距 */
+    color: #aaaaaa; /* 非标题文字为灰色 */
+}
+
+/* 5. 论文标题：白色，且字号稍大 (1.15倍) */
+.paper-item strong {
+    color: white;
+    font-size: 1.15em; 
+    display: block;   /* 让标题稍微独立出来，不显得太挤 */
+    margin-bottom: 4px;
 }
 </style>
 
 <div class="paper-item">
-    <strong>1. Towards a Super Intelligent AI System with Low Computation Cost</strong><br>
+    <strong>Towards a Super Intelligent AI System with Low Computation Cost</strong><br>
     <u>Zihan Ni</u>, Alex Murphy, Elena Fisher<br>
     <em>International Conference on Learning Representations (ICLR), 2026</em><br>
     <a class="pub-link" href="https://arxiv.org/abs/1234.5678">arXiv</a>
@@ -39,7 +60,7 @@ h1.post-title {
 </div>
 
 <div class="paper-item">
-    <strong>2. Efficient Neural Networks for Mobile Devices: A Survey</strong><br>
+    <strong>Efficient Neural Networks for Mobile Devices: A Survey</strong><br>
     John Smith, <u>Zihan Ni</u>, Sarah Connor<br>
     <em>IEEE Transactions on Pattern Analysis and Intelligence (TPAMI), 2025</em><br>
     <a class="pub-link" href="https://arxiv.org/abs/5678.1234">arXiv</a>
