@@ -25,13 +25,13 @@ menu:
           url: data/
           weight: 4 
         - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+          url: https://en.wikipedia.org
           weight: 6
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
-    # googleAnalyticsID: "G-XXXXX"
+    description: "This website hosts Zihan Ni's research papers, data, curriculum vitae, and contact information."
+    author: Zihan Ni
+    googleAnalyticsID: "G-MHNMJDWTNX"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
@@ -56,7 +56,7 @@ params:
           enabled: true
           title: Zihan Ni
           subtitle: "I'm a master's student at Kyoto University."
-          imageUrl: "picture.jpeg"
+          imageUrl: "avatar.jpg"
           imageWidth: 160
           imageHeight: 160
           buttons:
@@ -73,7 +73,7 @@ params:
             - name: Archive
               url: archive/
             - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+              url: https://en.wikipedia.org/
 
     socialIcons:
         - name: CV
@@ -93,7 +93,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Zihan Ni"
       icon: favicon.ico
       iconHeight: 18
 
