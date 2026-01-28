@@ -56,6 +56,12 @@ params:
           enabled: true
           title: Zihan Ni
           subtitle: |
+              <style>
+              /* 这行代码会强制全站放大 115% */
+              html { zoom: 115%; -webkit-text-size-adjust: 115%; }
+              /* 顺便帮你解决主页不显示切换按钮的问题 */
+              .theme-toggle { display: block !important; visibility: visible !important; }
+              </style>
               Ciallo～(∠・ω< )⌒★ <br>
               Welcome! I am <b>Zihan Ni</b>, currently an intern at <i>IBM TRL</i> while pursuing my Master's degree at <i>Kyoto University</i>. 
               Beyond academia, I am an avid fan of anime and enjoy long walks. Recently, I’ve been deeply immersed in <i>Strinova</i>. <br><br>
@@ -105,8 +111,6 @@ params:
 
     assets:
         disableScrollBarStyle: true
-        customCSS:
-            - "css/custom.css"  # 调整页面大小
     cover:
         hiddenInList: false
         hiddenInSingle: true
