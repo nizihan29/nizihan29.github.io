@@ -79,7 +79,7 @@ params:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:nizihan29@gmail.com
+          url: "mailto:nizihan29@gmail.com"
         - name: Google Scholar
           url: https://scholar.google.com
         - name: GitHub
