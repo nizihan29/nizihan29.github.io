@@ -1,4 +1,4 @@
-# Zihan Ni's Academic Website
+# Personal Academic Website
 
 This is the source code for my personal academic website, hosted at [nizihan29.github.io](https://nizihan29.github.io/).
 
