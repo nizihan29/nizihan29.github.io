@@ -105,6 +105,8 @@ params:
 
     assets:
         disableScrollBarStyle: true
+        customCSS:
+            - "css/custom.css"  # 调整页面大小
     cover:
         hiddenInList: false
         hiddenInSingle: true
