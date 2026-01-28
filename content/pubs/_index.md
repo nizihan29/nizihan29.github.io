@@ -5,6 +5,10 @@ hideMeta: true
 ---
 
 <style>
+/* 针对 Publications 页面大标题的间距 */
+h1.post-title {
+    margin-bottom: 50px !important; /* 这个数字越大，标题离论文就越远 */
+}
 /* 给链接加边框的样式 */
 .pub-link {
     display: inline-block;
