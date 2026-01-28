@@ -38,15 +38,13 @@ h1.post-title {
 /* 4. 论文项设置 */
 .paper-item {
     margin-bottom: 25px; /* 每篇论文之间的间距 */
-    color: #aaaaaa; /* 非标题文字为灰色 */
+    color: #888; /* 使用中灰色，兼顾深浅两种模式的阅读体验 */
 }
 
 /* 5. 论文标题：白色，且字号稍大 (1.15倍) */
 .paper-item strong {
-    color: white;
-    font-size: 1.15em; 
-    display: block;   /* 让标题稍微独立出来，不显得太挤 */
-    margin-bottom: 4px;
+    font-size: 1.1em; /* 仅比其他文字大 10% */
+    color: var(--content); /* 关键：这会让它自动跟随主题的文字颜色 */
 }
 </style>
 
