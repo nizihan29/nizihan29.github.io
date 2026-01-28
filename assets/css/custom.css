@@ -1,9 +1,0 @@
-/* 全局放大 115%，你可以根据需要改成 120% 或 125% */
-html {
-    zoom: 115%;
-}
-
-/* 这样可以让在大字号下看起来更精致 */
-body {
-    -webkit-font-smoothing: antialiased;
-}
