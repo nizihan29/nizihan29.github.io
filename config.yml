@@ -81,11 +81,11 @@ params:
         - name: Email
           url: mailto:nizihan29@gmail.com
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: https://scholar.google.com
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Twitter
-          url: https://x.com/pmichaillat
+          url: https://github.com/nizihan29
+        - name: X
+          url: https://x.com/m1n645372
 
     assets:
         disableScrollBarStyle: true
