@@ -33,9 +33,9 @@ params:
     author: Zihan Ni
     googleAnalyticsID: "G-MHNMJDWTNX"
     DateFormat: "January 2006"
-    defaultTheme: dark
+    defaultTheme: auto
     hideFooter: false
-    disableThemeToggle: true
+    disableThemeToggle: false
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
