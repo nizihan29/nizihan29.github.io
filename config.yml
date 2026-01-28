@@ -12,18 +12,21 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
-          weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
+        # - name: Books
+          # url: books/
+          # weight: 5 
+        # - name: Papers
+          # url: papers/
+          # weight: 2
+        # - name: Courses
+          # url: courses/
+          # weight: 3
+        # - name: Data
+          # url: data/
+          # weight: 4 
+        - name: Pubs
+          url: pubs/
+          weight: 1
         - name: Wiki
           url: https://en.wikipedia.org
           weight: 6
@@ -80,16 +83,18 @@ params:
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
+            # - name: Papers
+              # url: papers/
+            # - name: Data
+              # url: data/
+            # - name: Books
+              # url: books/
+            # - name: Courses
+              # url: courses/
+            # - name: Tags
+              # url: tags/
+            - name: Pubs
+              url: pubs/
             - name: Wiki
               url: https://en.wikipedia.org/
 
