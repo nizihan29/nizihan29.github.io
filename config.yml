@@ -24,7 +24,7 @@ menu:
         - name: Data
           url: data/
           weight: 4 
-        - name: Blog
+        - name: Wiki
           url: https://en.wikipedia.org
           weight: 6
 
@@ -58,9 +58,7 @@ params:
           subtitle: |
               <style>
               /* 这行代码会强制全站放大 115% */
-              html { zoom: 115%; -webkit-text-size-adjust: 115%; }
-              /* 顺便帮你解决主页不显示切换按钮的问题 */
-              .theme-toggle { display: block !important; visibility: visible !important; }
+              html { zoom: 115%; }
               </style>
               Ciallo～(∠・ω< )⌒★ <br>
               Welcome! I am <b>Zihan Ni</b>, currently an intern at <i>IBM TRL</i> while pursuing my Master's degree at <i>Kyoto University</i>. 
@@ -92,7 +90,7 @@ params:
               url: courses/
             - name: Tags
               url: tags/
-            - name: Blog
+            - name: Wiki
               url: https://en.wikipedia.org/
 
     socialIcons:
