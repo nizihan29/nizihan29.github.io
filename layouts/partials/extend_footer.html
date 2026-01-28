@@ -1,0 +1,24 @@
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/sakana-widget@2.7.1/lib/sakana.min.css"
+/>
+
+<div id="sakana-widget" style="position:fixed;bottom:20px;right:20px;z-index:999;"></div>
+
+<script>
+  function initSakanaWidget() {
+    // 这里可以使用 README 提到的参数，比如 { character: 'takina' }
+    new SakanaWidget({
+      autoFit: false, // 我们手动固定了大小，不需要自动适应
+      character: 'chisato', // 默认千束，你也可以改成 'takina'
+      size: 200, // 组件大小
+      controls: true, // 显示控制栏
+    }).mount('#sakana-widget');
+  }
+</script>
+
+<script
+  async
+  onload="initSakanaWidget()"
+  src="https://cdn.jsdelivr.net/npm/sakana-widget@2.7.1/lib/sakana.min.js"
+></script>
