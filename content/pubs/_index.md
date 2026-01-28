@@ -15,7 +15,7 @@ hideMeta: true
 /* 2. 标题样式：加线 + 间距 */
 h1.post-title {
     margin-bottom: 50px !important; /* 这个数字越大，标题离论文就越远 */
-    border-bottom: 1px solid var(--border); /* 标题下方的横线 */
+    border-bottom: 1.5px solid #bbb; /* 标题下方的横线 */
     padding-bottom: 15px;
 }
     
