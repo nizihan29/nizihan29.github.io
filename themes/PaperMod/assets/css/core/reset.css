@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'CabinSketch';
+    src: url('/fonts/CabinSketch-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *,
 ::after,
 ::before {
@@ -24,8 +31,8 @@ h6 {
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 18px;
+    font-family: 'CabinSketch', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: var(--textsize);
     line-height: 1.6;
     word-break: break-word;
     background: var(--theme);
@@ -115,4 +122,24 @@ textarea:-webkit-autofill {
 img {
     display: block;
     max-width: 100%;
+}
+
+.highlight-text {
+    color: #e67e22; /* 这里换成你喜欢的颜色，比如这个是高级的橙褐色 */
+    font-weight: bold; /* 顺便加粗一点，更醒目 */
+}
+
+/* 1. 只让最外层容器占满并两端对齐 */
+.profile_inner {
+    display: block !important;
+    text-align: justify !important;
+    text-justify: inter-word;
+}
+
+/* 2. 这里的修改是关键：删掉里面的 width: 100% */
+.profile_inner span, 
+.profile_inner p,
+.profile_inner .subtitle {
+    /* 删掉了 display: inline-block 和 width: 100% */
+    text-align: justify !important;
 }

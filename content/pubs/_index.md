@@ -10,6 +10,7 @@ h1.post-title {
     margin-bottom: 50px !important; /* 这个数字越大，标题离论文就越远 */
     border-bottom: 1.5px solid #bbb; /* 标题下方的横线 */
     padding-bottom: 15px;
+    font-size: 2em; /* 略微增大标题字体 */
 }
     
 /* 3. 链接边框样式 */
