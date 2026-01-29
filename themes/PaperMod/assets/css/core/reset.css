@@ -141,6 +141,8 @@ img {
 .profile_inner .subtitle {
     /* 删掉了 display: inline-block 和 width: 100% */
     text-align: justify !important;
+    hyphens: auto;           /* 允许自动加连字符 */
+    word-break: break-word;  /* 允许在长单词内断行 */
 }
 
 /*以下都是为了配置motto*/
