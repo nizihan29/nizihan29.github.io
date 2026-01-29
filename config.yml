@@ -57,12 +57,11 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Zihan Ni
+          title: Zihan Ni <div class="motto-box">"Part-time human."</div>
           subtitle: |
-              Ciallo～(∠・ω< )⌒★ <br>
-              Welcome! I am <b>Zihan Ni</b>, currently an intern at <span class="highlight-text">IBM TRL</span> while pursuing my Master's degree at <span class="highlight-text">Kyoto University</span>. 
-              My research interests focus on <i>Empathic AI</i> and <i>Psychoinformatics</i>. 
-              Beyond academia, I am an avid fan of anime and enjoy long walks. Recently, I’ve been deeply immersed in <i>Strinova</i>. <br><br>
+              Welcome! I am <b>Zihan Ni</b>, currently a Master's student at <span class="highlight-text">Kyoto Uni.</span> 
+              My research interests focus on Empathic AI and Psychoinformatics. 
+              Beyond academia, I am an avid fan of anime. Recently, I've been deeply immersed in <i>Strinova</i>. <br><br>
           imageUrl: "avatar.jpg"
           imageWidth: 160
           imageHeight: 160
@@ -84,7 +83,7 @@ params:
 
     socialIcons:
         - name: CV
-          url: cv.pdf
+          url: CV_en.pdf
         - name: Email
           url: mailto:nizihan29@gmail.com
         - name: Google Scholar

@@ -135,11 +135,33 @@ img {
     text-align: justify !important;
     text-justify: inter-word;
 }
-
 /* 2. 这里的修改是关键：删掉里面的 width: 100% */
 .profile_inner span, 
 .profile_inner p,
 .profile_inner .subtitle {
     /* 删掉了 display: inline-block 和 width: 100% */
     text-align: justify !important;
+}
+
+/*以下都是为了配置motto*/
+.profile_inner h1 {
+    display: flex;          /* 关键：让名字和格言横向排列 */
+    align-items: center;    /* 关键：让格言框对齐名字的中轴线 */
+    flex-wrap: wrap;        /* 手机端自动换行 */
+    margin-bottom: 20px !important; /* 拉开与下方 subtitle 的间距 */
+    gap: 30px;              /* 名字和格言之间的间隙 */
+}
+.motto-box {
+    display: inline-block;
+    font-style: italic;
+    padding: 4px 12px;      /* 放在右边可以稍微缩紧一点点 */
+    /* 重点：去掉之前的 margin-top，改用 margin-left 或者靠 gap 控制 */
+    margin: 0; 
+    border: 1.5px solid var(--primary);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    background: var(--tertiary); 
+    box-shadow: 4px 4px 0px var(--primary);
+    color: var(--primary);
+    font-size: 0.4em;       /* 放在名字右边，字号要小一点才和谐 */
+    vertical-align: middle;
 }
