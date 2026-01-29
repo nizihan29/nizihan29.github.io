@@ -58,10 +58,7 @@ params:
     profileMode:
           enabled: true
           title: Zihan Ni <div class="motto-box">"Part-time human."</div>
-          subtitle: |
-              Welcome! I am <b>Zihan Ni</b>, currently a Master's student at <span class="highlight-text">Kyoto Uni.</span> 
-              My research interests focus on Empathic AI and Psychoinformatics. 
-              Beyond academia, I am an avid fan of anime. Recently, I've been deeply immersed in <i>Strinova</i>. <br><br>
+          subtitle: Welcome! I am <b>Zihan Ni</b>, currently a Master's student at <span class="highlight-text">Kyoto Uni.</span> My research interests focus on Empathic AI and Psychoinformatics. Beyond academia, I am an avid fan of anime. Recently, I've been deeply immersed in <i>Strinova</i>. <br><br>
           imageUrl: "avatar.jpg"
           imageWidth: 160
           imageHeight: 160
