@@ -5,13 +5,6 @@ hideMeta: true
 ---
 
 <style>
-/* 1. 强制缩放：保持和主页一样的比例 */
-@media screen and (min-width: 768px) {
-    html {
-        zoom: 115%; /* 这里填你主页 subtitle 里写的那个数字，比如 115% 或 125% */
-    }
-}
-    
 /* 2. 标题样式：加线 + 间距 */
 h1.post-title {
     margin-bottom: 50px !important; /* 这个数字越大，标题离论文就越远 */
