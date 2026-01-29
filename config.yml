@@ -59,10 +59,6 @@ params:
           enabled: true
           title: Zihan Ni
           subtitle: |
-              <style>
-              /* 这行代码会强制全站放大 115% */
-              html { zoom: 115%; }
-              </style>
               Ciallo～(∠・ω< )⌒★ <br>
               Welcome! I am <b>Zihan Ni</b>, currently an intern at <i>IBM TRL</i> while pursuing my Master's degree at <i>Kyoto University</i>. 
               My research interests focus on <b>Empathic AI</b> and <b>Psychoinformatics</b>. 
