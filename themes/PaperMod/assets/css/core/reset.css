@@ -129,6 +129,19 @@ img {
     font-weight: bold; /* 顺便加粗一点，更醒目 */
 }
 
+.school-link {
+    text-decoration: underline;              /* 默认就有下划线 */
+    text-underline-offset: 2px;             /* 下划线和文字有点距离，更好看 */
+    text-decoration-thickness: 1.5px;       /* 下划线稍微粗一点 */
+    color: inherit;                         /* 跟周围文字同色 */
+}
+
+.school-link:hover {
+    color: var(--darkcolor);                /* 悬停时变颜色，和你站点强调色一致 */
+    text-decoration-color: var(--darkcolor);
+    cursor: pointer;                        /* 鼠标变成小手 */
+}
+
 /* 1. 只让最外层容器占满并两端对齐 */
 .profile_inner {
     display: block !important;

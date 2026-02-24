@@ -15,9 +15,9 @@ menu:
         # - name: Books
           # url: books/
           # weight: 5 
-        # - name: Papers
-          # url: papers/
-          # weight: 2
+        - name: Blogs
+          url: blogs/
+          weight: 2
         # - name: Courses
           # url: courses/
           # weight: 3
@@ -36,7 +36,7 @@ params:
     author: Zihan Ni
     googleAnalyticsID: "G-MHNMJDWTNX"
     DateFormat: "January 2006"
-    defaultTheme: dark
+    defaultTheme: auto
     hideFooter: false
     disableThemeToggle: false
     ShowShareButtons: false
@@ -47,7 +47,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    # mainSections: ["books","courses","papers","data"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -57,14 +57,14 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Zihan Ni <div class="motto-box">"Part-time human."</div>
-          subtitle: Welcome! I am <b>Zihan Ni</b>, currently a Master's student at <span class="highlight-text">Kyoto Uni.</span> My research interests focus on Applied Machine Learning and Empathic AI. Beyond academia, I am an avid fan of anime. Recently, I've been deeply immersed in <i>Fate/strange Fake</i>. <br><br>
+          title: Zihan Ni
+          subtitle: Welcome! I am <b>Zihan Ni</b>, currently a Master's student at <a href="https://www.kyoto-u.ac.jp/" class="school-link" target="_blank" rel="noopener noreferrer">Kyoto Uni.</a> My recent research interests lie in <span class="highlight-text">Applied Machine Learning</span> and <span class="highlight-text">Empathic AI</span>. Beyond academia, I am an avid fan of anime. Recently, I've been deeply immersed in <i>Fate/strange Fake</i>. <br><br>
           imageUrl: "avatar.jpg"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            # - name: Papers
-              # url: papers/
+            - name: Blogs
+              url: blogs/
             # - name: Data
               # url: data/
             # - name: Books

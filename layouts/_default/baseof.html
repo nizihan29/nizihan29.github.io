@@ -17,7 +17,9 @@
 {{- print " dark" }}
 {{- end -}}
 " id="top">
-    {{- if not .IsHome  }}
+    {{- if .IsHome }}
+    {{- partial "home_theme_toggle.html" . -}}
+    {{- else }}
     {{- partialCached "header.html" . .Page -}}
     {{- end }}
     <main class="main">

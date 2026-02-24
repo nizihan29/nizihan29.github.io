@@ -6,18 +6,18 @@
     --header-height: 50px;
     --footer-height: 50px;
     --radius: 8px;
-    --theme: rgb(255, 255, 255);
-    --entry: rgb(255, 255, 255);
+    --theme: #e6e2d7;
+    --entry: #d8ceb3;
     --primary: rgb(0, 0, 0);
     --secondary: rgb(108, 108, 108);
-    --tertiary: rgb(214, 214, 214);
+    --tertiary: #c6b3a2;
     --gray: rgb(165, 165, 165);
     --content: rgb(30, 30, 30);
     --code-block-bg: rgb(28, 29, 33);
-    --code-bg: rgb(245, 245, 245);
+    --code-bg: #d4d2cc;
     --border: rgb(238, 238, 238);
-    --darkcolor: #6a7ba2;
-    --lightcolor: #cbd1de;
+    --darkcolor: #98c3c7;
+    --lightcolor: #928981;
     --semibold: 500;
     --homesize: 22px;
     --textsize: 22px;
@@ -43,7 +43,7 @@
 }
 
 .list {
-    background: var(--code-bg);
+    background: var(--theme);
 }
 
 .dark.list {
