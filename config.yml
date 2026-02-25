@@ -15,8 +15,8 @@ menu:
         # - name: Books
           # url: books/
           # weight: 5 
-        - name: Blogs
-          url: blogs/
+        - name: Projects
+          url: projects/
           weight: 2
         # - name: Courses
           # url: courses/
@@ -58,13 +58,13 @@ params:
     profileMode:
           enabled: true
           title: Zihan Ni
-          subtitle: Welcome! I am <b>Zihan Ni</b>, currently a Master's student at <a href="https://www.kyoto-u.ac.jp/" class="school-link" target="_blank" rel="noopener noreferrer">Kyoto Uni.</a> My recent research interests lie in <span class="highlight-text">Applied Machine Learning</span> and <span class="highlight-text">Empathic AI</span>. Beyond academia, I am an avid fan of anime. Recently, I've been deeply immersed in <i>Fate/strange Fake</i>. <br><br>
+          subtitle: Welcome! I am <b>Zihan Ni</b>, currently a Master's student at <a href="https://www.kyoto-u.ac.jp/" class="school-link" target="_blank" rel="noopener noreferrer">Kyoto Uni.</a> My recent research interests lie in <span class="highlight-text">Applied Machine Learning</span> and <span class="highlight-text">Empathic AI</span>. Beyond academia, I am an avid fan of anime. <br><br>
           imageUrl: "avatar.jpg"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Blogs
-              url: blogs/
+            - name: Projects
+              url: projects/
             # - name: Data
               # url: data/
             # - name: Books
