@@ -6,6 +6,7 @@
 
 .footer {
     margin: auto;
+    min-height: var(--footer-height);
     padding: calc((var(--footer-height) - var(--gap)) / 2) var(--gap);
     text-align: center;
     line-height: 20px;

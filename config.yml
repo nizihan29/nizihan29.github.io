@@ -17,7 +17,7 @@ menu:
           # weight: 5 
         - name: Projects
           url: projects/
-          weight: 2
+          weight: 1
         # - name: Courses
           # url: courses/
           # weight: 3
@@ -26,7 +26,7 @@ menu:
           # weight: 4 
         - name: Pubs
           url: pubs/
-          weight: 1
+          weight: 2
         - name: Wiki
           url: https://en.wikipedia.org
           weight: 6
@@ -86,7 +86,7 @@ params:
         - name: Google Scholar
           url: https://scholar.google.com
         - name: LinkedIn
-          url: https://www.linkedin.com/in/zihan-ni-baa39636a/
+          url: https://www.linkedin.com/in/zihan-n-baa39636a
         - name: GitHub
           url: https://github.com/nizihan29
         - name: X
