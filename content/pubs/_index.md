@@ -43,18 +43,18 @@ h1.post-title {
 </style>
 
 <div class="paper-item">
-    <strong>Towards a Super Intelligent AI System with Low Computation Cost</strong><br>
+    <strong>Pub 1</strong><br>
     <u>Zihan Ni</u>, Alex Murphy, Elena Fisher<br>
     <em>International Conference on Learning Representations (ICLR), 2026</em><br>
-    <a class="pub-link" href="https://arxiv.org/abs/1234.5678">arXiv</a>
-    <a class="pub-link" href="https://github.com/zihanni/super-ai">Code</a>
-    <a class="pub-link" href="https://zihanni.github.io/super-ai">Project</a>
+    <a class="pub-link" href="404">arXiv</a>
+    <a class="pub-link" href="404">Code</a>
+    <a class="pub-link" href="404">Project</a>
 </div>
 
 <div class="paper-item">
-    <strong>Efficient Neural Networks for Mobile Devices: A Survey</strong><br>
+    <strong>Pub 2</strong><br>
     John Smith, <u>Zihan Ni</u>, Sarah Connor<br>
     <em>IEEE Transactions on Pattern Analysis and Intelligence (TPAMI), 2025</em><br>
-    <a class="pub-link" href="https://arxiv.org/abs/5678.1234">arXiv</a>
-    <a class="pub-link" href="https://github.com/zihanni/efficient-survey">Dataset</a>
+    <a class="pub-link" href="404">arXiv</a>
+    <a class="pub-link" href="404">Dataset</a>
 </div>

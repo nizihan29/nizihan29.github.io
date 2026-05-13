@@ -15,9 +15,9 @@ menu:
         # - name: Books
           # url: books/
           # weight: 5 
-        - name: Projects
-          url: projects/
-          weight: 1
+        # - name: Projects
+          # url: projects/
+          # weight: 1
         # - name: Courses
           # url: courses/
           # weight: 3
@@ -58,13 +58,13 @@ params:
     profileMode:
           enabled: true
           title: Zihan Ni
-          subtitle: Welcome! I am <b>Zihan Ni</b>, currently a Master's student at <a href="https://www.kyoto-u.ac.jp/" class="school-link" target="_blank" rel="noopener noreferrer">Kyoto Uni.</a> My recent research interests lie in <span class="highlight-text">Applied Machine Learning</span> and <span class="highlight-text">Empathic AI</span>. Beyond academia, I am an avid fan of anime. <br><br>
+          subtitle: <b>(This page is under construction)</b> Welcome! I am <b>Zihan Ni</b>, currently a Master's student at <a href="https://www.kyoto-u.ac.jp/" class="school-link" target="_blank" rel="noopener noreferrer">Kyoto Uni.</a> My recent research interests lie in <span class="highlight-text">Applied Machine Learning</span> and <span class="highlight-text">Cognitive Computing</span>. Beyond academia, I am an avid fan of anime. <br><br>
           imageUrl: "avatar.jpg"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Projects
-              url: projects/
+            # - name: Projects
+              # url: projects/
             # - name: Data
               # url: data/
             # - name: Books
