@@ -1,9 +1,9 @@
 ---
-title: "Your Inner Hedgehog" 
-date: 2021-04-06
+title: "Depth-Aware Scanpath Analysis" 
+date: 2026-07-15
 tags: ["social psychology","inner hedgehog","academia","experimental psychology","invasive thoughts"]
-author: ["Hilda Schreiber-Ziegler", "Moritz-Maria von Igelfeld"]
-description: "This paper describes the inner hedgehog, a psychological condition widespread in academia. Published in the Journal of Socio-Experimental Psychology, 2021." 
+author: ["Zihan Ni"]
+description: "An ongoing project on computational attention." 
 summary: "Using several case studies, this paper describes the inner hedgehog, a psychological condition widespread in academic occupations. The condition has lasting consequences and no known cure." 
 cover:
     image: "paper3.png"
