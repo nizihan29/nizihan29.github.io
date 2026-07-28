@@ -108,7 +108,7 @@
 }
 
 .post-content li::marker {
-    color: var(--tertiary);
+    color: var(--secondary);
 }
 
 .post-content li p {

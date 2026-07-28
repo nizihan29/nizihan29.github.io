@@ -12,24 +12,18 @@ taxonomies:
 
 menu:
     main:
-        # - name: Books
-          # url: books/
-          # weight: 5 
         - name: Projects
           url: projects/
           weight: 1
-        # - name: Courses
-          # url: courses/
-          # weight: 3
-        # - name: Data
-          # url: data/
-          # weight: 4 
         - name: Pubs
           url: pubs/
           weight: 2
+        - name: Research
+          url: research/
+          weight: 3
         - name: Wiki
           url: https://en.wikipedia.org
-          weight: 6
+          weight: 4
 
 params:
     description: "This website hosts Zihan Ni's research papers, data, curriculum vitae, and contact information."
@@ -65,16 +59,10 @@ params:
           buttons:
             - name: Projects
               url: projects/
-            # - name: Data
-              # url: data/
-            # - name: Books
-              # url: books/
-            # - name: Courses
-              # url: courses/
-            # - name: Tags
-              # url: tags/
             - name: Pubs
               url: pubs/
+            - name: Research
+              url: research/
             - name: Wiki
               url: https://en.wikipedia.org/
 
