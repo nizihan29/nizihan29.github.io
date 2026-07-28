@@ -6,18 +6,18 @@
     --header-height: 50px;
     --footer-height: 50px;
     --radius: 8px;
-    --theme: #d3c29e;
-    --entry: #e6d9c5;
-    --primary: #3c3e40;
-    --secondary: #6e7275;
-    --tertiary: #e3dec394;
-    --gray: rgb(165, 165, 165);
-    --content: rgb(30, 30, 30);
+    --theme: #f2f5f3;
+    --entry: #ffffff;
+    --primary: #1f2e27;
+    --secondary: #55665c;
+    --tertiary: #e2eae5;
+    --gray: #8ba195;
+    --content: #293830;
     --code-block-bg: rgb(28, 29, 33);
-    --code-bg: #d4d2cc;
-    --border: rgb(238, 238, 238);
-    --darkcolor: #799a9d;
-    --lightcolor: #928981;
+    --code-bg: #eef2ef;
+    --border: #e2eae5;
+    --darkcolor: #2c6e65;
+    --lightcolor: #c3d2c9;
     --semibold: 500;
     --homesize: 22px;
     --textsize: 22px;
@@ -40,6 +40,8 @@
     --code-block-bg: rgb(46, 46, 51);
     --code-bg: rgb(55, 56, 62);
     --border: rgb(51, 51, 51);
+    --darkcolor: #6ca386;
+    --lightcolor: #4a6e5a;
 }
 
 .list {
