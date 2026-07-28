@@ -12,21 +12,21 @@ taxonomies:
 
 menu:
     main:
-        - name: Projects
-          url: projects/
-          weight: 1
+        # - name: Projects
+        #   url: projects/
+        #   weight: 3
         - name: Pubs
           url: pubs/
           weight: 2
         - name: Research
           url: research/
-          weight: 3
+          weight: 1
         - name: Wiki
           url: https://en.wikipedia.org
           weight: 4
 
 params:
-    description: "This website hosts Zihan Ni's research papers, data, curriculum vitae, and contact information."
+    description: "This website hosts Zihan Ni's personal information."
     author: Zihan Ni
     googleAnalyticsID: "G-MHNMJDWTNX"
     DateFormat: "January 2006"
@@ -52,17 +52,17 @@ params:
     profileMode:
           enabled: true
           title: Zihan Ni
-          subtitle: <b>(This page is under construction)</b> Welcome! I am <b>Zihan Ni</b>, currently a Master's student at <a href="https://www.kyoto-u.ac.jp/" class="school-link" target="_blank" rel="noopener noreferrer">Kyoto Uni.</a> My recent research interests lie in <span class="highlight-text">Applied Machine Learning</span> and <span class="highlight-text">Representation Learning</span>. Beyond academia, I am an avid fan of anime. <br><br>
+          subtitle: Welcome! I am <b>Zihan Ni</b>, currently a Master's student at <a href="https://www.kyoto-u.ac.jp/" class="school-link" target="_blank" rel="noopener noreferrer">Kyoto Uni.</a> My recent research interests lie in <span class="highlight-text">Applied Machine Learning</span> and <span class="highlight-text">Computational Visual Attention</span>. Beyond academia, I am an avid fan of anime. <br><br>
           imageUrl: "avatar.jpg"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Projects
-              url: projects/
-            - name: Pubs
-              url: pubs/
             - name: Research
               url: research/
+            - name: Pubs
+              url: pubs/
+            # - name: Projects
+            #   url: projects/
             - name: Wiki
               url: https://en.wikipedia.org/
 
