@@ -7,10 +7,10 @@ hideMeta: true
 <style>
 /* 2. 标题样式：加线 + 间距 */
 h1.post-title {
-    margin-bottom: 50px !important; /* 这个数字越大，标题离论文就越远 */
-    border-bottom: 1.5px solid #bbb; /* 标题下方的横线 */
+    margin-bottom: 50px !important;
+    border-bottom: 1.5px solid var(--border);
     padding-bottom: 15px;
-    font-size: 2em; /* 略微增大标题字体 */
+    font-size: 2em;
 }
     
 /* 3. 链接边框样式 */
@@ -18,27 +18,27 @@ h1.post-title {
     display: inline-block;
     padding: 2px 8px;
     margin-right: 5px;
-    border: 1px solid #007bff;
+    border: 1px solid var(--darkcolor);
     border-radius: 4px;
     text-decoration: none !important;
     font-size: 0.85em;
-    color: #007bff !important;
+    color: var(--darkcolor) !important;
 }
 .pub-link:hover {
-    background-color: #007bff;
-    color: white !important;
+    background-color: var(--darkcolor);
+    color: var(--theme) !important;
 }
     
 /* 4. 论文项设置 */
 .paper-item {
-    margin-bottom: 25px; /* 每篇论文之间的间距 */
-    color: #6e7275; /* 使用中灰色，兼顾深浅两种模式的阅读体验 */
+    margin-bottom: 25px;
+    color: var(--secondary); /* 在蓝底上使用浅蓝灰色文字，更加清晰 */
 }
 
-/* 5. 论文标题：白色，且字号稍大 (1.15倍) */
+/* 5. 论文标题：自动跟随主题文字颜色，字号稍大 */
 .paper-item strong {
-    font-size: 1.1em; /* 仅比其他文字大 10% */
-    color: var(--content); /* 关键：这会让它自动跟随主题的文字颜色 */
+    font-size: 1.1em;
+    color: var(--content);
 }
 </style>
 

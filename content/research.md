@@ -2,6 +2,7 @@
 title: "Research"
 description: "Research Interests of Zihan Ni"
 layout: "single"
+hideMeta: true
 ---
 
 My current research lies at the intersection of **Artificial Intelligence**, **Computer Vision**, and **Cognitive Science**. I am broadly interested in leveraging advanced machine learning techniques to model human perception and behavior, aiming to bridge the gap between artificial intelligence and human cognition.
