@@ -82,6 +82,8 @@ params:
 
     assets:
         disableScrollBarStyle: true
+        theme_color: "#6b7bb4"
+        msapplication_TileColor: "#6b7bb4"
     cover:
         hiddenInList: false
         hiddenInSingle: true

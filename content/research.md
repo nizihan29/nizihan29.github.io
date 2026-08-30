@@ -5,14 +5,9 @@ layout: "single"
 hideMeta: true
 ---
 
-### Current Research
+### Research Interests
 
-My current research focuses on **Scanpath Prediction** (predicting the sequence of human eye fixations under visual stimuli) using **Deep Learning** and **Computer Vision**. Specifically, I explore how integrating **depth information** can improve visual attention models, using these systems to model human cognitive mechanisms.
-
----
-
-### Other Interests
-
-* **Representation Learning**
-* **Artificial Life & Evolution**
-* **Animal Communication Decoding**
+* Applied Machine Learning
+* Visual Attention Modeling
+* Representation Learning
+* Developmental AI

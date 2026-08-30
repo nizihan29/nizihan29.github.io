@@ -11,3 +11,9 @@
     color: var(--secondary);  
     gap: 2.5rem;
 }
+
+.not-found img {
+    max-width: 240px;
+    width: 100%;
+    height: auto;
+}
