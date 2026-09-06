@@ -18,6 +18,9 @@ menu:
         - name: Pubs
           url: pubs/
           weight: 2
+        - name: Blog
+          url: blog/
+          weight: 3
         - name: Research
           url: research/
           weight: 1
@@ -26,7 +29,7 @@ menu:
           weight: 4
 
 params:
-    description: "This website hosts Zihan Ni's personal information."
+    description: "Zihan Ni | Hello World!"
     author: Zihan Ni
     googleAnalyticsID: "G-MHNMJDWTNX"
     DateFormat: "January 2006"
@@ -63,6 +66,8 @@ params:
               url: pubs/
             # - name: Projects
             #   url: projects/
+            - name: Blog
+              url: blog/
             - name: Wiki
               url: https://en.wikipedia.org/
 
