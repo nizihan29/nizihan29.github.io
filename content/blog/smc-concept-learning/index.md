@@ -47,7 +47,7 @@ We adopt a GRU architecture, whose weights $\theta$ is stochastically initialize
 
 Then in each epoch (totally 200 epochs for every node), we randomly generate some environments (corresponding to this concept) and run current policy to gain a trajectory per environment. Note that a few of steps consist of a full trajectory, and total number of steps are confined within 2000 in our experiments. Finally we collect all rewards from these steps for one-time update of $\theta$:
 
-$$\theta \Leftarrow \theta + \nabla J(\theta)$$
+$$\theta \Leftarrow \theta + \alpha\nabla J(\theta)$$
 
 while $J(\theta)$ is the cumulated reward. In this paper, authors considered NPO for policy gradient method.
 
@@ -60,7 +60,7 @@ For a single step, the pipeline is as follows:
 3. Then sample from it to choose an action to conduct, and record the signal returned by lower-level SMC into result vector if a lower-level SMC is invoked;
 4. Finally use **new observation** $o_{t+1}$, **updated result vector** $v_{t+1}$, and **updated hidden state** $h_{t}$ as input of the next step.
 
-#### 4. Role of Result vector
+#### 4. Role of result vector
 
 - If the sampled action is a primitive behavior (e.g., `UP/DOWN` or a `signaling` action), the result vector remains unchanged and carries no new information.
 - Nevertheless, if a lower-level SMC is invoked, without the result vector, the agent would not receive the invocation result from the lower-level SMC in the previous step. Consequently, the GRU's input would remain identical to that of the previous step, causing the agent to "stagnate" (i.e., go in circles).
