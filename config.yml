@@ -18,9 +18,9 @@ menu:
         - name: Pubs
           url: pubs/
           weight: 2
-        - name: Blog
-          url: blog/
-          weight: 3
+        # - name: Blog
+        #   url: blog/
+        #   weight: 3
         - name: Research
           url: research/
           weight: 1
@@ -55,7 +55,7 @@ params:
     profileMode:
           enabled: true
           title: Zihan Ni
-          subtitle: Welcome! I am <b>Zihan Ni</b>, currently a Master's student at <a href="https://www.kyoto-u.ac.jp/" class="school-link" target="_blank" rel="noopener noreferrer">Kyoto Uni.</a> My recent research interests lie in <span class="highlight-text">Applied Machine Learning</span> and <span class="highlight-text">Computational Visual Attention</span>. Beyond academia, I am an avid fan of anime. <br><br>
+          subtitle: <span class="affiliation">1st-year Master's student, Graduate School of Informatics, <a href="https://www.kyoto-u.ac.jp/" class="school-link" target="_blank" rel="noopener noreferrer">Kyoto University</a></span> Welcome! I am <b>Zihan Ni</b>. My recent research interests lie in <span class="highlight-text">Applied Machine Learning</span> and <span class="highlight-text">Computational Visual Attention</span>. Beyond academia, I am an avid fan of anime. <br><br>
           imageUrl: "avatar.jpg"
           imageWidth: 160
           imageHeight: 160
@@ -66,8 +66,8 @@ params:
               url: pubs/
             # - name: Projects
             #   url: projects/
-            - name: Blog
-              url: blog/
+            # - name: Blog
+            #   url: blog/
             - name: Wiki
               url: https://en.wikipedia.org/
 

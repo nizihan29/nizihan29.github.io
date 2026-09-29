@@ -1,23 +1,23 @@
 /* ============================================================
-   Blog 正文彩色阅读排版（Obsidian 风格 · 同色系优雅风）
+   Blog 正文彩色阅读排版（浅色系 · 参考 Nomura Foundation 配色）
    只作用于博客文章容器 .blog-post，不影响其他页面。
-   配色基于主题变量 + 暖金点缀（呼应主页关键词高亮 #ffd166）。
+   配色：蓝紫 #5565a3（主）/ 暗玫瑰 #8f576c（点缀）/ 灰蓝 #616573
    ============================================================ */
 
 /* ---------- 标题分色分层 ---------- */
 .blog-post .post-content h2 {
-    color: #ffd166; /* 章节主标题：暖金 */
-    border-bottom: 1px solid rgba(255, 209, 102, 0.35);
+    color: #5565a3; /* 章节主标题：蓝紫 */
+    border-bottom: 1px solid rgba(85, 101, 163, 0.25);
     padding-bottom: 8px;
 }
 
 .blog-post .post-content h3 {
-    color: #b9d4ff; /* 子标题：亮蓝紫 */
+    color: #6b7bb4; /* 子标题：风铃草蓝 */
 }
 
 .blog-post .post-content h4,
 .blog-post .post-content h5 {
-    color: #9db4e8; /* 更次级标题 */
+    color: #616573; /* 更次级标题：灰 */
     text-transform: none;
 }
 
@@ -27,32 +27,32 @@
 
 /* ---------- 粗体 / 斜体 着色 ---------- */
 .blog-post .post-content strong {
-    color: #ffeac2; /* 暖杏，亮于正文，醒目而不刺眼 */
+    color: #8f576c; /* 粗体：暗玫瑰，暖色点缀 */
     font-weight: 700;
 }
 
 .blog-post .post-content em {
-    color: #aec6f0; /* 斜体：淡蓝紫 */
+    color: #616573; /* 斜体：灰 */
 }
 
 .blog-post .post-content strong em,
 .blog-post .post-content em strong {
-    color: #ffd166; /* 粗斜叠加时用高亮金 */
+    color: #5565a3; /* 粗斜叠加：蓝紫 */
 }
 
 /* ---------- 引用块：彩色左边条 + 淡底色 ---------- */
 .blog-post .post-content blockquote {
-    border-inline-start: 4px solid #ffd166;
-    background: rgba(255, 209, 102, 0.08);
-    color: #eef2fc;
+    border-inline-start: 4px solid #5565a3;
+    background: #f0f1f5;
+    color: #4d4d4d;
     padding: 10px 20px;
     border-radius: 0 6px 6px 0;
 }
 
-/* ---------- 行内代码在深底上的可读性 ---------- */
+/* ---------- 行内代码 ---------- */
 .blog-post .post-content code {
-    background: rgba(255, 255, 255, 0.12);
-    color: #ffeac2;
+    background: #f0f1f5;
+    color: #8f576c;
 }
 
 .blog-post .post-content pre code {
@@ -60,18 +60,14 @@
     color: var(--secondary);
 }
 
-/* ---------- 链接：暖金下划线保留，hover 提亮 ---------- */
-.blog-post .post-content a {
-    color: inherit;
-}
-
+/* ---------- 链接 hover 提亮 ---------- */
 .blog-post .post-content a:hover {
-    color: #ffd166;
+    color: #5565a3;
 }
 
 /* ---------- 列表标记点染色 ---------- */
 .blog-post .post-content li::marker {
-    color: #ffd166;
+    color: #5565a3;
 }
 
 /* ---------- 删除线文字弱化 ---------- */

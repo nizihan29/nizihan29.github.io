@@ -6,18 +6,19 @@
     --header-height: 50px;
     --footer-height: 50px;
     --radius: 8px;
-    --theme: #6b7bb4;
-    --entry: #5d6da2;
-    --primary: #fdfaf2;
-    --secondary: #d6dbeb;
-    --tertiary: #5868a1;
-    --gray: #b2bede;
-    --content: #faf6eb;
-    --code-block-bg: rgb(28, 29, 33);
-    --code-bg: #546396;
-    --border: #7b8bc2;
-    --darkcolor: #ffeac2;
-    --lightcolor: #4f5c8c;
+    /* ===== 浅色系配色（参考 Nomura Foundation 设计规格）===== */
+    --theme: #ffffff;         /* 页面背景：白 */
+    --entry: #f7f8fa;         /* 卡片/条目背景：极浅灰蓝 */
+    --primary: #333333;       /* 主文字与标题：深灰 */
+    --secondary: #616573;     /* 次级文字：灰 */
+    --tertiary: #e9eaf0;      /* 三级色块（按钮底色等）：浅灰蓝 */
+    --gray: #8191a6;          /* 灰蓝（辅助文字） */
+    --content: #4d4d4d;       /* 正文：深灰 */
+    --code-block-bg: #f5f6f8; /* 代码块背景 */
+    --code-bg: #f0f1f5;       /* 行内代码与页头背景：浅灰蓝 */
+    --border: #d8dbe3;        /* 边框 */
+    --darkcolor: #5565a3;     /* 强调色：蓝紫（链接下划线、hover） */
+    --lightcolor: #dfe3ee;    /* hover 背景：浅蓝紫 */
     --semibold: 500;
     --homesize: 22px;
     --textsize: 22px;

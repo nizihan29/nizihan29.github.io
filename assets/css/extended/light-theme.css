@@ -1,0 +1,119 @@
+/* ============================================================
+   主题微调（浅色系 · 参考 Nomura Foundation 设计规格）
+   该文件在 core.css 之后加载，用于覆盖主题默认样式。
+   ============================================================ */
+
+/* ---------- 字体：Noto Sans（与 Nomura Foundation 一致） ---------- */
+body {
+    font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'PingFang SC',
+                 'Microsoft YaHei', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* ---------- 单位行（名字下方） ---------- */
+.affiliation {
+    display: block;
+    font-size: 0.72em;
+    color: var(--secondary);
+    letter-spacing: 0.02em;
+    margin-bottom: 14px;
+}
+
+/* ---------- 首页右上角：京大竖版校名标识（"挂竖幅"） ----------
+   SVG 原始比例 55.5 : 162.1（约 1 : 2.92），容器按此比例设为 56 × 164px，
+   顶部留 24px 间隙，形成"悬挂"感 */
+body:has(.profile)::before {
+    content: '';
+    position: fixed;
+    top: 24px;
+    right: 40px;
+    width: 56px;
+    height: 164px;
+    background: url('/kyoto-logo-vertical.svg') no-repeat top center / contain;
+    pointer-events: none;
+    z-index: 5;
+}
+
+/* 小屏幕隐藏，避免遮挡内容 */
+@media (max-width: 900px) {
+    body:has(.profile)::before {
+        display: none;
+    }
+}
+
+/* ---------- 主页关键词高亮：黄色荧光笔底纹 ----------
+   （呼应 Nomura Foundation 使用 #fff045 做高亮的手法，
+     深色文字 + 浅黄底纹，在浅色背景上清晰可读） */
+.highlight-text {
+    color: inherit;
+    font-weight: 700;
+    background: linear-gradient(transparent 60%, rgba(255, 240, 69, 0.85) 60%);
+    padding: 0 2px;
+    border-radius: 2px;
+}
+
+/* ---------- 主页按钮：蓝紫描边，hover 反色 ----------
+   （与 Pubs 页链接风格统一，hover 反馈明确） */
+.button {
+    background: var(--theme);
+    border: 1px solid var(--darkcolor);
+    color: var(--darkcolor);
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.button:hover {
+    background: var(--darkcolor);
+    color: var(--theme);
+}
+
+/* ---------- 社交图标与学校链接：hover 蓝紫区域高亮 ----------
+   默认保持原有深灰色（静态不抢眼），鼠标移上去时
+   以站点蓝色（蓝紫 #5565a3）+ 浅蓝底色块高亮 */
+.social-icons {
+    margin-left: -8px; /* 抵消图标内边距，保持整行左对齐 */
+}
+
+.social-icons a {
+    padding: 8px; /* 改为对称内边距，让 hover 底色块包住图标 */
+    border-radius: 8px;
+    transition: color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+
+.social-icons a:hover {
+    color: var(--darkcolor); /* 蓝紫 */
+    background: rgba(85, 101, 163, 0.12); /* 浅蓝底块 */
+    transform: translateY(-2px);
+}
+
+.school-link:hover {
+    color: var(--darkcolor); /* 蓝紫 */
+    background: rgba(85, 101, 163, 0.12); /* 浅蓝底纹高亮 */
+    text-decoration-color: var(--darkcolor);
+}
+
+/* ---------- 子页面标题：蓝紫色块（野村式 h2_pagetitle 手法） ----------
+   白字 + 蓝紫底 + 不对称圆角 + 大内边距，形成页面级的"蓝色区域" */
+.post-single .post-header .post-title {
+    display: inline-block;
+    max-width: 100%;
+    background: var(--darkcolor); /* #5565a3 */
+    color: #fff;
+    padding: 16px 36px;
+    border: none;
+    border-radius: 6px 36px;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+
+/* ---------- 首页：浅灰蓝背景 + 白色 footer（区域层次） ----------
+   仅作用于首页（:has(.profile)），子页面保持白底不变；
+   灰底与白色 footer 形成"灰-白"两段式，边界清晰 */
+body:has(.profile) {
+    background: #f0f1f5;
+}
+
+body:has(.profile) .footer {
+    background: #ffffff;
+}
+

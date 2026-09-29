@@ -62,8 +62,9 @@ pre {
     position: absolute;
     top: 4px;
     right: 4px;
-    color: rgba(255, 255, 255, 0.8);
-    background: rgba(78, 78, 78, 0.8);
+    color: var(--secondary);
+    background: var(--theme);
+    border: 1px solid var(--border);
     border-radius: var(--radius);
     padding: 0 5px;
     font-size: 14px;
