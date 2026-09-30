@@ -2,8 +2,6 @@
 title: "Publications"
 layout: "single"
 hideMeta: true
-aliases:
-    - /pubs/
 ---
 
 <style>
