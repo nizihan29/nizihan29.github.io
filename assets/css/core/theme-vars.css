@@ -2,7 +2,7 @@
     --gap: 24px;
     --content-gap: 20px;
     --nav-width: 1024px;
-    --main-width: 820px;
+    --main-width: 900px;
     --header-height: 50px;
     --footer-height: 50px;
     --radius: 8px;
@@ -20,12 +20,13 @@
     --darkcolor: #5565a3;     /* 强调色：蓝紫（链接下划线、hover） */
     --lightcolor: #dfe3ee;    /* hover 背景：浅蓝紫 */
     --semibold: 500;
-    --homesize: 22px;
-    --textsize: 22px;
-    --h1size: 25px;
-    --entrysize: 15px;
-    --headersize: 20px;
-    --footersize: 15px;
+    /* 尺寸整体 ×1.1（与浏览器 110% 缩放观感一致） */
+    --homesize: 24px;
+    --textsize: 24px;
+    --h1size: 28px;
+    --entrysize: 17px;
+    --headersize: 22px;
+    --footersize: 17px;
     --lineheight: 1.45;
     --lineclamp: 8;
     --marginleft: 26px;

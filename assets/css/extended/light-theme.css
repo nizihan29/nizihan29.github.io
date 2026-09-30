@@ -20,18 +20,23 @@ body {
 }
 
 /* ---------- 首页右上角：京大竖版校名标识（"挂竖幅"） ----------
-   SVG 原始比例 55.5 : 162.1（约 1 : 2.92），容器按此比例设为 56 × 164px，
-   顶部留 24px 间隙，形成"悬挂"感 */
+   SVG 原始比例 55.5 : 162.1（约 1 : 2.92），容器按此比例设为 62 × 180px，
+   顶部留 24px 间隙形成"悬挂"感；固定在窗口右上角，不随页面滚动 */
 body:has(.profile)::before {
     content: '';
     position: fixed;
     top: 24px;
     right: 40px;
-    width: 56px;
-    height: 164px;
+    width: 62px;
+    height: 180px;
     background: url('/kyoto-logo-vertical.svg') no-repeat top center / contain;
     pointer-events: none;
     z-index: 5;
+}
+
+/* ---------- 名字字号：随整体 ×1.1 ---------- */
+.profile .profile_inner h1 {
+    font-size: 2.75rem;
 }
 
 /* 小屏幕隐藏，避免遮挡内容 */
@@ -71,6 +76,18 @@ body:has(.profile)::before {
    以站点蓝色（蓝紫 #5565a3）+ 浅蓝底色块高亮 */
 .social-icons {
     margin-left: -8px; /* 抵消图标内边距，保持整行左对齐 */
+}
+
+/* ---------- 自我介绍的分段与区块间距 ----------
+   视觉层次应为：行内空白 < 段落间距 < 区块间距。
+   段落间距 14px（不大不小），文本块到图标 26px（明确分区） */
+.bio-hobby {
+    display: block;
+    margin-top: 14px;
+}
+
+.profile_inner .social-icons {
+    margin-top: 26px;
 }
 
 .social-icons a {
