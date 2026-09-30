@@ -6,19 +6,19 @@
     --header-height: 50px;
     --footer-height: 50px;
     --radius: 8px;
-    /* ===== 浅色系配色（参考 Nomura Foundation 设计规格）===== */
-    --theme: #ffffff;         /* 页面背景：白 */
-    --entry: #f7f8fa;         /* 卡片/条目背景：极浅灰蓝 */
-    --primary: #333333;       /* 主文字与标题：深灰 */
-    --secondary: #616573;     /* 次级文字：灰 */
-    --tertiary: #e9eaf0;      /* 三级色块（按钮底色等）：浅灰蓝 */
-    --gray: #8191a6;          /* 灰蓝（辅助文字） */
-    --content: #4d4d4d;       /* 正文：深灰 */
-    --code-block-bg: #f5f6f8; /* 代码块背景 */
-    --code-bg: #f0f1f5;       /* 行内代码与页头背景：浅灰蓝 */
-    --border: #d8dbe3;        /* 边框 */
-    --darkcolor: #5565a3;     /* 强调色：蓝紫（链接下划线、hover） */
-    --lightcolor: #dfe3ee;    /* hover 背景：浅蓝紫 */
+    /* ===== 浅色系配色（对齐野村灰阶：页面背景用中灰 #d0d6e0）===== */
+    --theme: #d9dee8;         /* 页面背景：中浅灰蓝（比 #d0d6e0 淡一档） */
+    --entry: #ffffff;         /* 卡片/条目背景：白（在灰底上浮起） */
+    --primary: #2b2f37;       /* 主文字与标题：深灰 */
+    --secondary: #4e5462;     /* 次级文字：加深（灰底上更清晰） */
+    --tertiary: #e3e7ef;      /* 三级色块（按钮底色等）：比背景浅 */
+    --gray: #6d7b90;          /* 灰蓝（辅助文字） */
+    --content: #3a3e46;       /* 正文：深灰 */
+    --code-block-bg: #e3e7ef; /* 代码块背景 */
+    --code-bg: #ffffff;       /* 页头背景：白 */
+    --border: #b7bfcd;        /* 边框：比背景深，保证可见 */
+    --darkcolor: #4a5784;     /* 强调色：蓝紫（灰底上加深一档） */
+    --lightcolor: #c6cedd;    /* hover 背景 */
     --semibold: 500;
     /* 尺寸整体 ×1.1（与浏览器 110% 缩放观感一致） */
     --homesize: 24px;

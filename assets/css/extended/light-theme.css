@@ -46,15 +46,10 @@ body:has(.profile)::before {
     }
 }
 
-/* ---------- 主页关键词高亮：黄色荧光笔底纹 ----------
-   （呼应 Nomura Foundation 使用 #fff045 做高亮的手法，
-     深色文字 + 浅黄底纹，在浅色背景上清晰可读） */
+/* ---------- 主页关键词：仅加粗强调（去掉黄色底纹） ---------- */
 .highlight-text {
     color: inherit;
     font-weight: 700;
-    background: linear-gradient(transparent 60%, rgba(255, 240, 69, 0.85) 60%);
-    padding: 0 2px;
-    border-radius: 2px;
 }
 
 /* ---------- 主页按钮：蓝紫描边，hover 反色 ----------
@@ -97,14 +92,14 @@ body:has(.profile)::before {
 }
 
 .social-icons a:hover {
-    color: var(--darkcolor); /* 蓝紫 */
-    background: rgba(85, 101, 163, 0.12); /* 浅蓝底块 */
+    color: var(--darkcolor);                    /* 蓝紫 */
+    background: rgba(74, 87, 132, 0.16);        /* 浅蓝底块 */
     transform: translateY(-2px);
 }
 
 .school-link:hover {
-    color: var(--darkcolor); /* 蓝紫 */
-    background: rgba(85, 101, 163, 0.12); /* 浅蓝底纹高亮 */
+    color: var(--darkcolor);
+    background: rgba(74, 87, 132, 0.18);
     text-decoration-color: var(--darkcolor);
 }
 
@@ -113,7 +108,7 @@ body:has(.profile)::before {
 .post-single .post-header .post-title {
     display: inline-block;
     max-width: 100%;
-    background: var(--darkcolor); /* #5565a3 */
+    background: var(--darkcolor);
     color: #fff;
     padding: 16px 36px;
     border: none;
@@ -123,14 +118,8 @@ body:has(.profile)::before {
     letter-spacing: 0.04em;
 }
 
-/* ---------- 首页：浅灰蓝背景 + 白色 footer（区域层次） ----------
-   仅作用于首页（:has(.profile)），子页面保持白底不变；
-   灰底与白色 footer 形成"灰-白"两段式，边界清晰 */
+/* 首页背景跟随全局主题色（与子页面一致） */
 body:has(.profile) {
-    background: #f0f1f5;
-}
-
-body:has(.profile) .footer {
-    background: #ffffff;
+    background: var(--theme);
 }
 
